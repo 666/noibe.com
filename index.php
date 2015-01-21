@@ -4,33 +4,25 @@
 	<meta charset="utf-8"/>
 	<title>Noibe</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-	<script src="js/villa.js"></script>
-	<link rel="stylesheet" href="css/villa-foundation.css"/>
-	<link rel="stylesheet" href="css/villa-grid.css"/>
-	<link rel="stylesheet" href="css/villa.css"/>
-	<link rel="stylesheet" href="css/mowe.css"/>
-	<link rel="stylesheet" href="css/mowe-hero.css"/>
-	<link rel="stylesheet" href="css/mowe-font.css"/>
-	<link rel="stylesheet" href="css/mowe-navbar.css"/>
-	<link rel="stylesheet" href="css/mowe-structure.css"/>
-	<link rel="stylesheet" href="css/mowe-wow.css"/>
-	<link rel="stylesheet" href="css/mowe-pricelist.css"/>
-	<link rel="stylesheet" href="css/mowe-timeline.css"/>
-	<link rel="stylesheet" href="css/wtal.css"/>
-	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/villa.js"></script>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/villa-foundation.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/villa-grid.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/villa.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-hero.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-font.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-navbar.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-structure.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-wow.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-pricelist.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mowe-timeline.css"/>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/wtal.css"/>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="css/material-colors.css"/>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/html5shiv-printshiv.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv-printshiv.js"></script>
 	<![endif]-->
-	<style>
-	.text b {
-	    padding-left: 0px !important;
-	}
-	.text {
-	    text-align: justify;
-	}
-	</style>
 </head>
 <body class="">
 
@@ -135,11 +127,11 @@
 
 					<p>Somos amigos da baia ancorada/sólida Noibe da Campus Party Brasil, que se encontras em vários locais ao redor do mundo para mostrar o <b>VALOR</b> da irmandade e da amizade sem fronteiras e sem preconceitos! Somos Nerds, somos gordos, somos negros, somos japoneses, somos alemães, polacos, somos guris, somos gurias, somos.... <b>NOIBE</b>!</p>
 
-					<p>Estamos juntos, para o que tu precisares, somos o que somos, pois temos a <b>SOLIEDARIEDADE</b> e o <b>QPQ</b> (famoso Quid Pro Quo) como principais motos da nossa existência. Tu que estás lendo e que queres participar, sejas bem vindo, pois traga o teu conhecimento e a tua <b>GANA</b> de seres <b>NOIBE</b>, que as portas e os banquinhos <b>SEMPRE</b> estarão abertos para ti! Família Noibe <b>A COMUNIDADE NERD da CAMPUS PARTY And BEYOND</b>...</p>
+					<p>Estamos juntos, para o que tu precisares, somos o que somos, pois temos a <b>SOLIEDARIEDADE</b> e o <b>QPQ</b> (famoso Quid Pro Quo) como principais motos da nossa existência. Tu que estás lendo e que queres participar, sejas bem vindo, pois traga o teu conhecimento e a tua <b>GANA</b> de seres <b>NOIBE</b>, que as portas e os banquinhos <b>SEMPRE</b> estarão abertos para ti! Família Noibe <b>A COMUNIDADE NERD da CAMPUS PARTY and BEYOND</b>...</p>
 				</section>
 
 				<section class="img">
-					<img src="img/about.jpg" alt="Quem Somos"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/about.jpg" alt="Quem Somos"/>
 				</section>
 
 
@@ -166,11 +158,11 @@
 
 					<p>Se tu quiseres participar da nossa baia, tragas o teu espirito livre de seres tu, o tempo todo, (mas não tragas caixas de som, pois a CPBR NÃO permites isto).</p>
 
-					<p>E sejas bem vindo para a NOSSA COMUNIDADE FAMILIA NOIBE!</p>
+					<p>E sejas bem vindo para a <b>NOSSA COMUNIDADE FAMILIA NOIBE!</b></p>
 				</section>
 
 				<section class="img">
-					<img src="img/join.jpg" alt="Junte-se a nós!"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/join.jpg" alt="Junte-se a nós!"/>
 				</section>
 
 			</div>
@@ -188,7 +180,7 @@
 				</section>
 
 				<section class="img">
-					<img src="img/contact.jpg" alt="Fale Conosco"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/contact.jpg" alt="Fale Conosco"/>
 				</section>
 
 			</div>
@@ -200,6 +192,6 @@
 
 <footer id="block-4" class="black block"></footer>
 
-<script src="js/mowe.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/mowe.js"></script>
 
 </body>
